@@ -1,0 +1,75 @@
+/* styles.css */
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80");
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+input {
+  background-color: #575757;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  min-width: 300px;
+  color: #fff;
+  transition: 0.2s;
+}
+
+input#search:hover {
+  background: #65747b;
+}
+
+input:focus {
+  outline: none;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 85px;
+}
+
+.weather {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem; /* Added to create space between input and weather info */
+}
+
+.weather h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem; /* Adjusted from 0 to create space below weather temperature */
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.7); /* Adjusted opacity for better readability */
+  width: 100%;
+  max-width: 470px;
+  height: auto; /* Changed from 70% to auto for better responsiveness */
+  padding: 2.5em;
+  text-align: center;
+  border-radius: 30px;
+  color: white;
+  margin-top: 2rem; /* Added to create space from the top */
+}
+
+.more-info p {
+  font-size: 1.2rem; /* Increased font size for better readability */
+  margin-bottom: 0.5rem; /* Adjusted from 0 to create space between paragraphs */
+}
+
+.more-info span {
+  font-weight: 600;
+}
